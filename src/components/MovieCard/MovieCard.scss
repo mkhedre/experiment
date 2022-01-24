@@ -1,0 +1,27 @@
+@import "../../common/colors.scss";
+
+.card {
+  /* Add shadows to create the "card" effect */
+
+  transition: all 0.3s;
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+  }
+  img {
+    background-size: cover;
+    width: 100%;
+  }
+  .card-container {
+    padding: 2px 0;
+    margin: 5px;
+  }
+  p {
+    color: $font-primary;
+    font-size: 200;
+  }
+}
+
+/* On mouse-over, add a deeper shadow */
+
+/* Add some padding inside the card container */
